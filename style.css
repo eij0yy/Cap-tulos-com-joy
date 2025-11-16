@@ -1,0 +1,214 @@
+:root {
+    --main-color: #FFF1A8;
+    --blue:#7185b8;
+    --bg: #ffffff;
+    --border: 0.1rem solid rgb(141, 187, 214);
+    font-size: 10px;
+    
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border:none ;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Playfair Display", serif;
+}
+body {
+    background-color:var(--bg);
+}
+
+section{
+    padding: 15rem 30rem;
+    margin: 0 auto;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index:99;
+    background-color: var(--bg);
+    border-bottom: var(--border)
+  
+}
+
+.header section {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top:1.5rem;
+    padding-bottom:0.5rem;
+    margin-left: 90px;
+
+
+}
+
+.navbar a {
+    margin:0 2.5rem;
+    font-size: 1.8rem;
+    color: #22459e;
+}
+
+.navbar a:hover {
+    color: rgb(17, 0, 255);
+   border-bottom:0.1rem solid var(--blue);
+   padding-bottom: 0,5rem;
+   font-size: 1.3rem;
+}
+.icons  img{
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    width: 40px;
+    height: 40px;
+
+ }
+
+ .home-container{
+    background: url("./img/livros.png");
+     background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 45%; 
+    height: 90vh;
+    padding-top: 100px;
+    margin-top: 143px;
+    
+ }
+
+ .content{
+    max-width: 60rem;
+ }
+
+ .content h3{
+    color: #22459e;
+    font-size: 5rem;
+ }
+
+ .content p {
+    color: #ac9005;
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+ }
+ .title{
+    font-size: 4rem;
+    color:#22459e;
+    text-align: center;
+
+    }
+
+    .Reviews .row{
+        display: flex;
+        align-items: center;
+        background-color: #7185b8;
+        gap: 1REM;
+        margin-top: 50px
+
+
+
+    }
+    .Reviews .row.text {
+        padding-left: 2rem;
+        
+    
+    }
+
+    .Reviews .row .text h3{
+        font-size: 3rem;
+        color: #ffffff;
+        
+
+    }
+
+    .Reviews .row .text p{
+        font-size: 2rem;
+        color: #ffffff;
+        
+
+    }
+    
+
+
+    .Indications .box-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
+     gap: 1.5rem; 
+
+}
+
+.Indications .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    margin-top: 50px
+    
+}
+
+.Indications .box-container .box:hover{ 
+    background-color: #7185b8;
+
+}
+
+.Indications .box-container .box:hover>*{
+    color: #ffffff;
+
+}
+
+.Indications .box-container .box h3{
+
+    color: #7185b8;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.Indications .title{
+    font-size: 4rem;
+}
+
+    .mais-lidos-no-brasil .box-container {
+        display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
+     gap: 1.5rem;
+
+    }
+
+   .mais-lidos-no-brasil .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    margin-top: 50px
+    
+}
+
+.mais-lidos-no-brasil .box-container .box h3{
+
+    color: #7185b8;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.mais-lidos-no-brasil .title{
+    font-size: 4rem;
+
+}
+
+
+ .title span{
+    color: #24bb3d;
+}
+   
+.cont-texto p {
+    font-size: 1.8rem;
+    margin-top: 50px
+    
+    
+}
